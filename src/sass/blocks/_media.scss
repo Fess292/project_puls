@@ -1,0 +1,130 @@
+@media (max-width: 1200px){
+    .promo {
+        width: 100%;
+        padding: 21px 20px 93px 20px;
+    }
+    .reasons {
+        &__blocks {
+            justify-content: center;
+            width: 100%;
+            .reasons__block {
+            margin-right: 20px;
+            }
+        }
+    }
+    .consultation {
+        .container {
+        padding-left: 48px;
+        }
+    }
+
+    .catalog-item {
+        margin: 0 auto;
+    }
+    }
+@media (max-width: 767px){
+    .promo {
+        padding-right: 16px;
+        padding-left: 16px;
+    }
+    .reasons {
+        margin: 0 auto;
+        &__blocks {
+            width: 100%;
+            .reasons__block {
+            margin-right: 16px;
+            }
+        }
+    }
+    .carousel {
+        .container{
+            width: 100%;
+        }
+        .carousel__inner {
+            position: relative;
+            width: 500px;
+            margin: 0 auto;
+            img{
+                width: 100%;
+            }
+        }
+    }
+        
+    }
+    .catalog {
+        .catalog__tab {
+            width: 30%;
+        }
+    }
+
+
+@media (max-width: 576px) {
+    .header {
+        &__phone {
+            font-size: 15px;
+        }
+    }
+    .consultation {
+        .feed-form, button {
+            width: 257px;
+        }
+        .title_left {
+            font-size: 28px;
+        }
+    }
+    .carousel {
+        .carousel__inner {
+            width: 100%;
+            img{
+                width: 100%;
+            }
+        }
+
+    }
+    .catalog {
+        .catalog__tab { 
+            font-size: 14px;
+            line-height: 23px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .catalog-item {
+            width: 49%;
+            padding-right: 10px;
+            padding-left: 5px;
+            &__footer {
+                flex-direction: column;
+            }
+            &__list {
+                margin-left: 0;
+                li {
+                    font-size: 11px;
+                }
+                
+            }
+            &__content {
+                width: 48%;
+                margin-right: 0;
+            }
+        }
+    }
+    .feed {
+        &__item {
+            flex-direction: column;
+            justify-content: center;
+            padding-left: 2px;
+            }
+        }
+    
+    }
+    .footer {
+        &__info {
+            display: none;
+        }
+    }
+
+
+
+    
+
